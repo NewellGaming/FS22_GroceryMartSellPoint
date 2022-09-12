@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="65">
+    <author>Newell_Gaming</author>
+    <version>2.0.0.1</version>
+    <title>
+        <en>Grocery Mart</en>
+    </title>
+    <description>
+        <en>Grocery Mart</en>
+    </description>
+    <iconFilename>img/store_groceryMart.dds</iconFilename>
+	
+	<multiplayer supported="true"/>	
+	
+	<brands>
+		<brand name="Newell_Gaming" title="Newell_Gaming" image="img/newellGaming.dds"/>
+	</brands>
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua" />
+    </extraSourceFiles>
+	
+    <storeItems>
+		<storeItem xmlFilename="groceryMart.xml"/>	
+    </storeItems>
+
+</modDesc>
